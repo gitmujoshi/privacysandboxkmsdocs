@@ -1,0 +1,62 @@
+# Bazel symlinks
+/bazel-*
+
+# IDEs
+/.vscode/
+/*.code-workspace
+/.idea/
+/.clwb/
+
+#Backup files
+*~
+
+*.log
+*.tar
+*.eif
+/dist/
+__pycache__/
+/test/run_local/dist
+
+# Hedron's Compile Commands Extractor for Bazel
+# https://github.com/hedronvision/bazel-compile-commands-extractor
+/external
+/compile_commands.json
+/.cache/
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build and dependency directories
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
